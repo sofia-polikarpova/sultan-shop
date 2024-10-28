@@ -78,6 +78,8 @@ export default function Home() {
         <a
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
+</body>
+</html>
           rel="noopener noreferrer"
         >
           <Image
@@ -92,4 +94,19 @@ export default function Home() {
       </footer>
     </div>
   );
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статический Баннер</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner">
+        <h1 id="banner-title">БЫТОВАЯ ХИМИЯ, КОСМЕТИКА И ХОЗТОВАРЫ</h1>
+        <p id="banner-description">ОПТОМ ПО КОКЧЕТАВУ И ОБЛАСТИ</p>
+    </div>
+    <script src="script.js"></script>
 }
